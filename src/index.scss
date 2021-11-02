@@ -248,3 +248,33 @@ code {
   font-weight: 600;
   text-align: center;
 }
+
+.form-send__input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: .3rem 1rem;
+  font-weight: 600;
+  color: #000;
+  background-color: #B6B6BC;
+  &::placeholder {
+    font-weight: 700;
+    color: #000;
+  }
+}
+
+
+.form-send__input-select {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: .3rem 1rem;
+  font-weight: 700;
+  color: #000;
+  background-color: #B6B6BC;
+  select {
+    margin-right: 10px;
+  }
+}
+
+

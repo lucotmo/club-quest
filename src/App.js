@@ -26,6 +26,69 @@ function App() {
             <svg  class="icon-user-club-quest" id="icon-user-club-quest" data-name="icon-user-club-quest" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 198">
               <path d="M199,100A99,99,0,1,1,100,1,98.9,98.9,0,0,1,199,100Z" transform="translate(-1 -1)" fill="#b60823"/><path d="M103.64,69.72c3.25.79,6.67,1.17,9.73,2.43C125,76.94,132,85.59,134.17,98a32.9,32.9,0,0,1-16.84,34.5c-12.14,6.52-24.24,5.85-35.56-2A31.61,31.61,0,0,1,67.68,104c-.23-12.3,5.09-22,15.26-28.86A32,32,0,0,1,97.88,69.9a4.74,4.74,0,0,0,.72-.18Z" transform="translate(-1 -1)" fill="#fff"/><path d="M162.79,176.56a99,99,0,0,1-124.38.94l5.25-14.05C49.5,151.1,59,143.23,72.31,139.93c.92-.24,1.89-.34,2.84-.55a6.71,6.71,0,0,1,5.55,1.34,34.88,34.88,0,0,0,22.08,6.39c6.16-.26,12.11-1.73,17.07-5.37,3.8-2.81,7.44-2.6,11.51-1.47,11.14,3.12,19.53,9.81,25.51,19.64Z" transform="translate(-1 -1)" fill="#fff"/>
             </svg>
+            <div class="col-xs-12 col-sm-12 mb-2">
+              <input className="form-send__input" id="firstname" name="firstname" type="text" placeholder="Nombre" autocomplete="off" />
+              {/* <span class="nombre alerta">Por favor ingresa un Nombre</span> */}
+            </div>
+            <div class="col-xs-12 col-sm-12 mb-2">
+              <input className="form-send__input" id="lastname" name="lastname" type="text" placeholder="Apellido" autocomplete="off" />
+              {/* <span class="nombre alerta">Por favor ingresa un Nombre</span> */}
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 mb-2">
+                <select className="form-send__input-select" name="select" id="tipo-documento">
+                  <option value="" selected="selected">Documento</option>
+                  <option value="C">Cedula de Ciudadania</option>
+                </select>
+                {/* <span class="documento alerta">Por favor elige un Tipo de Documento válido</span> */}
+              </div>
+              <div class="col-xs-12 col-sm-6 mb-2">
+                <input className="form-send__input" id="numero-documento" name="numero-documento" type="text" placeholder="Número de documento" autocomplete="off" />
+                {/* <span class="nombre alerta">Por favor ingresa un Nombre</span> */}
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 mb-2">
+              <input className="form-send__input" id="correo" name="correo" type="text" placeholder="E-mail" autocomplete="off" />
+              {/* <span class="nombre alerta">Por favor ingresa un Nombre</span> */}
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 mb-2">
+                <input className="form-send__input" id="celular" name="celular" type="text" placeholder="Celular" autocomplete="off" />
+                {/* <span class="nombre alerta">Por favor ingresa un Nombre</span> */}
+              </div>
+              <div class="col-xs-12 col-sm-6 mb-2">
+                <input className="form-send__input" id="telefono" name="telefono" type="text" placeholder="Telefono" autocomplete="off" />
+                {/* <span class="nombre alerta">Por favor ingresa un Nombre</span> */}
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 mb-2">
+                <select className="form-send__input-select" name="genero" id="genero">
+                  <option value="" selected="selected">Género</option>
+                  <option value="F">Femenino</option>
+                  <option value="M">Masculino</option>
+                </select>
+                {/* <span class="documento alerta">Por favor elige un Tipo de Documento válido</span> */}
+              </div>
+              <div class="col-xs-12 col-sm-8 mb-2">
+                <input className="form-send__input" id="fecha-nacimiento" name="fecha-nacimiento" type="date" placeholder="Fecha de nacimiento" autocomplete="off" />
+                {/* <span class="nombre alerta">Por favor ingresa un Nombre</span> */}
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 mb-2">
+                <select className="form-send__input-select" name="departamento" id="departamento">
+                  <option value="" selected="selected">Departamento</option>
+                  <option value="Santa marta">Santa marta</option>
+                </select>
+                {/* <span class="documento alerta">Por favor elige un Tipo de Documento válido</span> */}
+              </div>
+              <div class="col-xs-12 col-sm-6 mb-2">
+                <input className="form-send__input" id="ciudad" name="ciudad" type="text" placeholder="Ciudad" autocomplete="off" />
+                {/* <span class="nombre alerta">Por favor ingresa un Nombre</span> */}
+              </div>
+            </div>
+            
             <button type="button" class="form-send__button">REGÍSTRATE</button>
           </form>
         </div>
